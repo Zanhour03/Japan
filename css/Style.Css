@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+
+@font-face {
+    font-family: "Mikefont";
+    src: url("nuku1.woff") format("woff");
+  }
+.div{
+  padding-bottom: 6%;
+}
+#Flag{
+    width:100px;
+    height:70px;
+    border-radius: 10px;
+    position: relative;
+    display: block;
+    top: 10%;
+    left: 45%;
+    float: left;
+    background-color: white;
+}
+#text1{
+    width:125px;
+    height:50px;
+    float: left;
+    padding-left: 27%;
+    color: white;
+    
+ 
+    
+}
+#text2{
+    width: 120px;
+    height:50px;
+    float: right;
+    padding-right: 35%;
+    color: white;
+
+}
+
+body{
+    background-size: 100%;
+    background-image: url(../Picture/Background.jpg);
+  
+  
+}
+h1{
+   
+        font-family: "Mikefont", Times, serif;   
+}
