@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#big{
+    background-color: lightslategray;
+    opacity: 1;
+    margin: auto;
+    width: 100%;
+    height: 200vh;
+    background-image : linear-gradient(to bottom, 
+    rgba(255,255,255, 1),
+    rgba(255,255,255, 0)90%);
+}
+
+#menu{
+    height: 15vh;
+    border: black solid 2px;
+
+}
+
+#featured{
+    background-image: url(../img/Background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    width: 100%;
+    height: 50%;
+    filter: drop-shadow(100px 20px 20px #222);
+}
+
+a{
+    border: black solid 2px;
+    margin-left: 30%;
+    height: 10vh;
+    
+}
+
+#logo{
+    width: 17%;
+    height: 145px;
+    background-image: url(../img/logo2.png);
+    background-size: cover;
+    margin: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+#content{
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+    height: 40%;
+    border: 2px solid black;
+    filter: drop-shadow(5px 5px 5px #222);
+    
+}
+
+#cont1{
+    background-image: url(../img/bild3.jpg);
+    background-size: 100% 100%; 
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90%;
+    border: 2px solid red;
+}
+
+
+#cont2{
+    background-image: url(../img/effcba9c79d2c408c1eb53c89927b4d5.jpg);
+    background-size: 100% 100%; 
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90%;
+    border: 2px solid red;
+}
+
+#cont3{
+    background-image: url(../img/goku-peruk-dragon-ball.jpg);
+    background-size: 100% 100%; 
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90%;
+    border: 2px solid red;
+}
+
