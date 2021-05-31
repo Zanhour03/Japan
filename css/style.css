@@ -69,6 +69,8 @@
 }
 
 
+
+/* The navigation bar */
 .navbar {
     overflow: visible;
     background-color: #333;
@@ -79,6 +81,7 @@
     border: black solid 2px;
   }
   
+  /* Links inside the navbar */
   .navbar a {
     float: left;
     display: block;
