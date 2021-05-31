@@ -1,52 +1,110 @@
 *{
-    margin: 0%;
-    padding:0%;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: "Mikefont";
-    src: url("nuku1.woff") format("woff");
+#logo{
+    width: 14%;
+    height: 120px;
+    background-image: url(../img/logo2.png);
+    background-size: cover;
+    margin: auto;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+#bilden{
+    margin-bottom: -5px;
+}
+
+#back{
+    background-image: url(../img/japanese-waves-seamless-pattern_6343-597.jpg); 
+    background-size: 20%, 20%;
+    height: 100vh;
+}
+
+#content{
+    background-color: whitesmoke;
+    margin: auto;
+    width: 90%;
+    height: 80%;
+    border: 2px solid black;
+    filter: drop-shadow(5px 5px 5px #222);
+    
+}
+
+#cont1{
+    background-image: url(../img/bild3.jpg);
+    background-size: 100% 100%; 
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90%;
+    border: 2px solid red;
+}
+
+
+#cont2{
+    background-image: url(../img/bapanbild2.jpg);
+    background-size: 100% 100%; 
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90%;
+    border: 2px solid red;
+}
+
+#cont3{
+    background-image: url(../img/goku-peruk-dragon-ball.jpg);
+    background-size: 100% 100%; 
+    margin-top: 2%;
+    margin-left: 2%;
+    float: left;
+    width: 30%;
+    height: 90%;
+    border: 2px solid red;
+}
+
+
+
+/* The navigation bar */
+.navbar {
+    overflow: visible;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 10vh;
+    border: black solid 2px;
   }
-.div{
-  padding-bottom: 6%;
-}
-#Flag{
-    width:100px;
-    height:70px;
-    border-radius: 10px;
-    position: relative;
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
     display: block;
-    top: 10%;
-    left: 45%;
-    float: left;
-    background-color: white;
-}
-#text1{
-    width:125px;
-    height:50px;
-    float: left;
-    padding-left: 27%;
-    color: white;
-    
- 
-    
-}
-#text2{
-    width: 120px;
-    height:50px;
-    float: right;
-    padding-right: 35%;
-    color: white;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    margin-left: 15%;
+  }
 
-}
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+  }
 
-body{
-    background-size: 100%;
-    background-image: url(../Picture/Background.jpg);
-  
-  
-}
-h1{
-   
-        font-family: "Mikefont", Times, serif;   
-}
+.context{
+    font-size: 200%;
+    font-family:'Segoe UI';
+    text-decoration: none;
+    text-align: center;}
