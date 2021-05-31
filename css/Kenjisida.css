@@ -3,10 +3,12 @@
   padding: auto;
 }
 
+/* Fyllnad som motverkar att navigationsbaren överlappar  */
 #topfill{
   height: 5vh;
 }
 
+/* Loggan i navigationsbaren */
 #logo{
   width: 14%;
   height: 120px;
@@ -16,6 +18,7 @@
   filter: drop-shadow(5px 5px 5px #222);
 }
 
+/* Navigationsbaren */
 .navbar {
   z-index:1;
   overflow:visible;
@@ -27,7 +30,7 @@
   border: black solid 2px;
 }
 
-/* Links inside the navbar */
+/* Länkarna i navigationsbaren */
 .navbar a {
   float: left;
   display: block;
@@ -38,33 +41,37 @@
   margin-left: 15%;
 }
 
-/* Change background on mouse-over */
+/* Navbar länkarna reagerar med musen */
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
 
-/* Main content */
+/* Main sektion */
 .main {
   margin-top: 30px; /* Add a top margin to avoid content overlay */
   height: 500px;
 }
 
+/* Bild för Tokyo */
 #tokyopic{
     height: 110%;
     width: 100%;
 }
 
+/* Bild för Osaka */
 #osakapic{
   height: 110%;
   width: 100%;
 }
 
+/* Bild för Kyoto */
 #kyotopic{
 height: 110%;
 width: 100%;
 }
 
+/* Bakgrunden */
 #backpage{
   background-color: cornsilk;
   width: 100%;
@@ -72,10 +79,7 @@ width: 100%;
 }
 
 
-
-
-
-/* Container holding the image and the text */
+/* Container som får texten att få plats i bilden */
 .container {
   text-align: center;
   color: black;
@@ -84,7 +88,7 @@ width: 100%;
 }
 
 
-/* Centered text */
+/* Centrerad Tokyo text */
 .centered1 {
   position:absolute;
   top: 50%;
@@ -92,6 +96,7 @@ width: 100%;
   transform: translate(-50%, -50%);
 }
 
+/* Centrerad Osaka text */
 .centered2 {
   position:absolute;
   top: 50%;
@@ -101,6 +106,7 @@ width: 100%;
   color: white;
 }
 
+/* Centrerad Kyoto text */
 .centered3 {
   position:absolute;
   top: 50%;
