@@ -5,24 +5,25 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/script.js"></script>
-    <link rel="icon" type="img/goku-peruk-dragon-ball.jpg" href="img/goku-peruk-dragon-ball.jpg">
+    <link rel="icon" type="img/" href="img/goku-peruk-dragon-ball.jpg">
 </head>
 <body>
-
-<div class="navbar">
-    <a href="index.html" id="info">Home</a>
-    <a href="Callesida.html"> Traditions </a>
-    <a href="Kenjisida.html"> Sights </a>
-    <a href="mikesida.html"> Culture </a>
-    <div id="logo" onclick="location.href='index.html';" style="cursor: pointer;"> &nbsp; </div>
-</div>
+    <div class="navbar">
+        <a href="index.html" id="info">Home</a>
+        <a href="Tradition.html"> Traditions </a>
+        <a href="Kenjisida.html"> Sights </a>
+        <a href="Culture.html"> Culture </a>
+        <div id="logo" onclick="location.href='index.html';" style="cursor: pointer;"> &nbsp; </div>
+    </div>
 
 <img src="../Japan Website/img/Background.jpg" alt="Mount Fuji" width="100%" height="70%" id="bilden">
 
 <div id="back">
 
+    <input class="scroll-down"  type="button" onClick="document.getElementById('content').scrollIntoView({ block: 'end',  behavior: 'smooth' });"  />
+
     <div id="content">
-        <div id="cont1" onclick="location.href='Callesida.html';" style="cursor: pointer;">
+        <div id="cont1" onclick="location.href='Tradition.html';" style="cursor: pointer;">
             <h1 class="context">Traditions</h1>
         </div>
 
@@ -30,7 +31,7 @@
             <h1 class="context">Sights</h1>
         </div>
 
-        <div id="cont3" onclick="location.href='Mikesida.html';" style="cursor: pointer;">   
+        <div id="cont3" onclick="location.href='Culture.html';" style="cursor: pointer;">   
             <h1 class="context">Culture</h1>
         </div>
     </div>
