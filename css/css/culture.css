@@ -1,0 +1,118 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+@font-face {
+    font-family: "Mikefont";
+
+src: url("nuku1.woff") format("woff");
+}
+
+#topfill{
+    height: 5vh;
+}
+#textcont{
+    border: black 2px;
+    padding-top: 10%;
+}
+#logo{
+    width: 14%;
+    height: 120px;
+    background-image: url(/img/logo2.png);
+    background-size: cover;
+    margin: auto;
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.navbar {
+    z-index:1;
+    overflow:visible;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    height: 10vh;
+    border: black solid 2px;
+  }
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    margin-left: 15%;
+  }
+
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
+  /* Main content */
+  .main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    height: 500px;
+  }
+
+  #tokyopic{
+      height: 110%;
+      width: 100%;
+  }
+
+  #backpage{
+      background-color: cornsilk;
+      width: 100%;
+      height: 200vh;
+  }
+
+
+
+  /* Container holding the image and the text */
+.container {
+    text-align: center;
+    color: black;
+    font-size: 300%;
+    font-family:sans-serif;
+  }
+  
+  /* Centered text */
+  .centered {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+.title{
+    font-family: "Mikefont";
+    padding-top: 25px;
+    color: crimson;
+    }
+  #food{
+    float: right;
+    position:right;
+    border: red solid 2px;
+    margin-right: 40%;
+  }
+  #Neoculture{
+    float: right;
+    position:right;
+    border: black solid 2px;
+  }
+  #Religion{
+    float: right;
+    position:right;
+    border: black solid 2px;
+    
+  }
+  #foo{
+    
+    border: red solid 2px;
+    
+  }
+   
