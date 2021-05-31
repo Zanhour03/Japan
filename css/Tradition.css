@@ -4,13 +4,42 @@
     text-decoration: none;
     
 }
-
 @font-face {
     font-family: "Mikefont";
 
 src: url("nuku1.woff") format("woff");
 
+} 
+
+
+#logo{
+    width: 14%;
+    height: 120px;
+    background-image: url(/img/logo2.png);
+    background-size: cover;
+    margin: auto;
+    filter: drop-shadow(5px 5px 5px #222);
 }
+
+
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    margin-left: 15%;
+  }
+
+  /* Change background on mouse-over */
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+  
 #html{
     scroll-behavior: smooth;
     color:#252525 ;
@@ -29,21 +58,7 @@ src: url("nuku1.woff") format("woff");
 
 
 }
-#menu{
-    height: 12vh;
-    background-color: #252525;    
-    filter: drop-shadow(5px 0px 5px rgb(66, 65, 65));
-    margin-bottom: 10px;
-    display: block;
-}
-#menu a {
-    color: white;
-    text-align: auto;
-    margin-top: 5em;
-    font-size: 28px;
-    font-family: "Mikefont";
 
-}
 
 #featured{
     background-image: url(../img/banner3.jpg);

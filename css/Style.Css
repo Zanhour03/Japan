@@ -21,20 +21,23 @@
     background-image: url(../img/japanese-waves-seamless-pattern_6343-597.jpg); 
     background-size: 20%, 20%;
     height: 100vh;
+    padding-top: 7%;
+    padding-bottom: 7%;
 }
 
 #content{
     background-color: whitesmoke;
     margin: auto;
     width: 90%;
-    height: 80%;
+    height: 100%;
     border: 2px solid black;
     filter: drop-shadow(5px 5px 5px #222);
+    
     
 }
 
 #cont1{
-    background-image: url(../img/bild3.jpg);
+    background-image: url(../img/traditions2.jpg);
     background-size: 100% 100%; 
     margin: auto;
     margin-top: 2%;
@@ -58,7 +61,7 @@
 }
 
 #cont3{
-    background-image: url(../img/goku-peruk-dragon-ball.jpg);
+    background-image: url(../img/Culture.jpg);
     background-size: 100% 100%; 
     margin-top: 2%;
     margin-left: 2%;
@@ -79,6 +82,7 @@
     width: 100%; /* Full width */
     height: 10vh;
     border: black solid 2px;
+
   }
   
   /* Links inside the navbar */
@@ -108,3 +112,57 @@
     font-family:'Segoe UI';
     text-decoration: none;
     text-align: center;}
+
+    .scroll-down{
+      
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-top: 40px solid #ffffff;
+        position: absolute;
+        left: 48%;
+        bottom: 20px;
+        cursor: pointer;
+        outline-style: none;
+        background-color: transparent;
+        animation: scroll-down 2s ease-in-out infinite;
+        cursor: pointer;
+        
+    }
+    .scroll-down::before,
+.scroll-down::after {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  height: 10px;
+  width: 10px;
+  transform: translate(-50%, -100%) 
+
+rotate(45deg);
+  border: 2px solid black;
+  border-top: transparent;
+  border-left: transparent;
+  animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+  top: 30%;
+  animation-delay: 0.3s;
+  /* animation: scroll-down 1s ease-in-out infinite; */
+}
+
+@keyframes scroll-down {
+  0% {
+    /* top:20%; */
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    top: 90%;
+    opacity: 0;
+  }
+}
