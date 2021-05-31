@@ -2,40 +2,26 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    
 }
 
-@font-face {
-    font-family: "Mikefont";
-
-src: url("nuku1.woff") format("woff");
-
-}
 #html{
     scroll-behavior: smooth;
-    color:#252525 ;
-    overflow: auto;
     
 }
+
 #big{
+
     opacity: 1;
     margin: auto;
-    padding-bottom: 100px;
     width: 100%;
-    height: 200vh;  
-    background-color: #1b1b1b;
-    height: 100%;
-    width: 100%;
-
-
+    height: 200vh;    
 }
 #menu{
     height: 12vh;
-    background-color: #252525;    
-    filter: drop-shadow(5px 0px 5px rgb(66, 65, 65));
-    margin-bottom: 10px;
-    display: block;
+  
+background-color: #252525;    
 }
+
 #menu a {
     color: white;
     text-align: auto;
@@ -46,14 +32,12 @@ src: url("nuku1.woff") format("woff");
 }
 
 #featured{
-    background-image: url(../img/banner3.jpg);
-    filter: drop-shadow(0px 7px 5px rgb(43, 42, 42));
-    background-size: 96% 500px;
-    background-position: top center;
+    background-image: url(../img/bakgrund.jpg);
+    background-size: 100%;
     background-repeat: no-repeat;
+    margin: auto;
     width: 100%;
     height: 50%;
-
 }
 
 #logo{
@@ -62,46 +46,13 @@ src: url("nuku1.woff") format("woff");
     background-image: url(../img/logo2.png);
     background-size: cover;
     margin: auto;
-}
 
-a{
-    margin-top: 100px;
-    margin-left: 30%;
-    height: 10vh;
-    
-}
-
-#content{
-    margin: 450px 25px 0px 25px;
-    padding: 5% 20% 10% 5%;
-    background-color: rgb(252, 239, 239);
-}
-
-.rubriker{
-    font-family: "Mikefont";
-    padding-top: 25px;
-    color: crimson;
-}
-
-#rubrik{
-    font-family: "Mikefont";
-    padding-top: 25px;
-    color: crimson;
-    position: center;
-    padding-left:auto ;
-    font-size: 2.5em;
-}
-table {
-    border: 1px solid black;
-    text-decoration: blue;
-}
-td{
-    padding-right: 10px;
-    padding-left: -10px;
 }
 
 
+#text1{
 
-
+margin-top: 500px;
+}
 
 
