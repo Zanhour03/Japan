@@ -1,136 +1,48 @@
-*{
-  margin: auto;
-  padding: auto;
-}
-@font-face {
-  font-family: "Mikefont";
+<!DOCTYPE html>
+<html>
+<head>
+<title> Japan Sights</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/Kenjisida.css">
+<script src="js/script.js"></script>
+<link rel="icon" type="img/" href="img/icon1.png">
+</head>
+<body>
+     <!--Kenjis part of the site (all Kenjis work)--> 
 
-src: url("nuku1.woff") format("woff");
-}
+      <!--Naigation bar start-->
+<div class="navbar">
+    <a href="index.html" id="info">Home</a>
+    <a href="Tradition.html"> Traditions </a>
+    <a href="Kenjisida.html"> Sights </a>
+    <a href="Culture.html"> Culture </a>
+    <div id="logo" onclick="location.href='index.html';" style="cursor: pointer;"> &nbsp; </div>
+</div>
+ <!--Naigation bar end-->
 
-#topfill{
-  height: 5vh;
-}
+  <!--text of content start-->
+<div class="main">
+    <div id="topfill"></div>
+    <div class="container">
+        <img src="../Japan Website/img/2020-03-11-Session-Tokyo-thumbnail.webp" alt="Tokyo" id="tokyopic">
+        <div class="centered1">Tokyo | 東京</div>
+        <p class="para">As the main capital of Japan, Tokyo is brimming with life and is packed with things to do. From eating exciting cuisine to shopping in Ginza or Shinjuku. If you are a fan of anime and video games, Akihabara, commonly known as the electric town of Japan, is the place to go. Tokyo is filled with exciting sights and spots from the Tokyo Skytree, the second highest building in the world to taking a breather in one of Tokyo's many beautiful parks such as the Hamarikyu Gardens in the Chuo district or Ueno Park in the Taitō district. If you are looking for some traditional Japanese temples or shrines the Sensō-ji Temple in Asakusa is a sight to behold and the Gōtokuji Temple in Setagaya is a pleasant place to visit with a collection of hundreds of Japanese lucky cats near the temple. </p>
+    </div>
 
-#logo{
-  width: 14%;
-  height: 120px;
-  background-image: url(../img/logo2.png);
-  background-size: cover;
-  margin: auto;
-  filter: drop-shadow(5px 5px 5px #222);
-}
+    <div class="container">
+        <img src="img/osaka-32.jpg" alt="Osaka" id="osakapic">
+        <div class="centered2">Osaka | 大阪</div>
+        <p class="para" id="p2">Osaka is Japan’s third largest city located in the Kansai region on the left side of Japan and is famous for its food. The most well known dish is the takoyaki and okonomiyaki which consist of a batter along with other ingredients like cabbage and octopus. Takoyaki are formed like small round balls while okonomiyaki are made like a pancake. Dōtonbori is a food district famous for its food and their neon Glico billboard featuring a running man. Another big landmark of Osaka is the Osaka castle, a majestic building sitting in the Osaka Castle Park. The castle was constructed in 1597 and has been maintained well, retaining its beauty. </p>
+    </div>
 
-.navbar {
-  z-index:1;
-  overflow:visible;
-  background-color: #333;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  height: 10vh;
-  border: black solid 2px;
-}
+    <div class="container">
+        <img src="img/PrImg_4536-700x423.jpg" alt="Kyoto" id="kyotopic">
+        <div class="centered3">Kyoto | 京都</div> 
+        <p class="para" id="p3">Kyoto, previously known as Japan’s capital city before Tokyo inherited the role during the Edo period, is great for people interested in the traditional side of Japanese culture. One very well known local sight in Kyoto is the Fushimi-Inari Taisha Shrine which is a shrine consisting of around 10 000 Torii gates lined up along the path up to the head shrine on the base of Inari mountain. The mountain is inhabited by the Inari Ōkami which is a Japanese fox spirit from the Shinto religion. Kyoto is packed with traditional japanese castles and palaces from the Edo period such as the Nijo castle and the Kyoto Imperial Palace. </p>
+    </div>
 
-/* Links inside the navbar */
-.navbar a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 18px 16px;
-  text-decoration: none;
-  margin-left: 15%;
-  font-family: "Mikefont";
-}
+</div>
+ <!--text of content end-->
 
-/* Change background on mouse-over */
-.navbar a:hover {
-  background: #ddd;
-  color: black;
-}
-
-/* Main content */
-.main {
-  margin-top: 30px; /* Add a top margin to avoid content overlay */
-  height: 500px;
-}
-
-#tokyopic{
-    height: 110%;
-    width: 100%;
-}
-
-#osakapic{
-  height: 110%;
-  width: 100%;
-}
-
-#kyotopic{
-height: 110%;
-width: 100%;
-}
-
-#backpage{
-  background-color: cornsilk;
-  width: 100%;
-  height: 200vh;
-}
-
-
-
-
-
-/* Container holding the image and the text */
-.container {
-  text-align: center;
-  color: black;
-  font-size: 300%;
-  font-family:sans-serif;
-}
-
-
-/* Centered text */
-.centered1 {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.centered2 {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 55%;
-  color: white;
-}
-
-.centered3 {
-  position:absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 130%;
-
-}
-
-.para {
-  position:absolute;
-  font-size: 40%;
-  top: 100%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(255, 255, 255, 0.6);
-  border: black solid 2px;
-  padding: 5vh;
-}
-
-#p2{
-  margin-top: 55%;
-}
-
-#p3{
-  margin-top: 125%;
-}
+</body>
+</html> 
