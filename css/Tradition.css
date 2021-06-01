@@ -2,61 +2,60 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    
+
 }
 @font-face {
     font-family: "Mikefont";
-
 src: url("nuku1.woff") format("woff");
-
 } 
+
 
 
 #logo{
     width: 14%;
     height: 120px;
-    background-image: url(/img/logo2.png);
+    background-image: url(../img/logo2.png);
     background-size: cover;
     margin: auto;
     filter: drop-shadow(5px 5px 5px #222);
-}
+  }
 
+ 
+  .navbar {
+    z-index:1;
+    overflow:visible;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    height: 10vh;
+    border: black solid 2px;
+  }
 
-  
-  /* Links inside the navbar */
+ 
   .navbar a {
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 18px 16px;
-    text-decoration: none;
-    margin-left: 15%;
+    padding: 49px 49.75px;
+    margin-left: 11%;
+    margin-top: -5vh;
+    font-family: "Mikefont";
+
   }
 
-  /* Change background on mouse-over */
-  .navbar a:hover {
-    background: #ddd;
-    color: black;
-  }
-  
+
 #html{
     scroll-behavior: smooth;
     color:#252525 ;
     overflow: auto;
-    
+
 }
-#big{
-    opacity: 1;
-    margin: auto;
-    padding-bottom: 100px;
-    width: 100%;
-    height: 200vh;  
+
+body{
     background-color: #1b1b1b;
-    height: 100%;
-    width: 100%;
-
-
+    padding-bottom: 100px;
 }
 
 
@@ -69,25 +68,20 @@ src: url("nuku1.woff") format("woff");
     width: 100%;
     height: 50%;
 
+
 }
 
-#logo{
-    width: 17%;
-    height: 145px;
-    background-image: url(../img/logo2.png);
-    background-size: cover;
-    margin: auto;
-}
+
 
 a{
     margin-top: 100px;
     margin-left: 30%;
     height: 10vh;
-    
+
 }
 
 #content{
-    margin: 450px 25px 0px 25px;
+    margin: 500px 25px 0px 25px;
     padding: 5% 20% 10% 5%;
     background-color: rgb(252, 239, 239);
 }
@@ -108,9 +102,10 @@ a{
 }
 table {
     border: 1px solid black;
-    text-decoration: blue;
+
 }
 td{
-    padding-right: 10px;
+    padding-right: 20px;
     padding-left: -10px;
+    color: blue;
 }
