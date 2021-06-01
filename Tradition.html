@@ -3,14 +3,14 @@
 <head>
 <title> Japan Sights</title>
 <meta charset="utf-8">
-<link rel="stylesheet" href="css/Kenjisida.css">
+<link rel="stylesheet" href="css/culture.css">
 <script src="js/script.js"></script>
 <link rel="icon" type="img/" href="img/icon1.png">
 </head>
 <body>
-     <!--Kenjis part of the site (all Kenjis work)--> 
+       <!--Mikes part of the site (all Mikes work)-->  
 
-      <!--Naigation bar start-->
+        <!--Naigation bar start-->
 <div class="navbar">
     <a href="index.html" id="info">Home</a>
     <a href="Tradition.html"> Traditions </a>
@@ -20,29 +20,82 @@
 </div>
  <!--Naigation bar end-->
 
-  <!--text of content start-->
-<div class="main">
-    <div id="topfill"></div>
-    <div class="container">
-        <img src="../Japan Website/img/2020-03-11-Session-Tokyo-thumbnail.webp" alt="Tokyo" id="tokyopic">
-        <div class="centered1">Tokyo | 東京</div>
-        <p class="para">As the main capital of Japan, Tokyo is brimming with life and is packed with things to do. From eating exciting cuisine to shopping in Ginza or Shinjuku. If you are a fan of anime and video games, Akihabara, commonly known as the electric town of Japan, is the place to go. Tokyo is filled with exciting sights and spots from the Tokyo Skytree, the second highest building in the world to taking a breather in one of Tokyo's many beautiful parks such as the Hamarikyu Gardens in the Chuo district or Ueno Park in the Taitō district. If you are looking for some traditional Japanese temples or shrines the Sensō-ji Temple in Asakusa is a sight to behold and the Gōtokuji Temple in Setagaya is a pleasant place to visit with a collection of hundreds of Japanese lucky cats near the temple. </p>
-    </div>
+<div id="topfill"></div>
 
-    <div class="container">
-        <img src="img/osaka-32.jpg" alt="Osaka" id="osakapic">
-        <div class="centered2">Osaka | 大阪</div>
-        <p class="para" id="p2">Osaka is Japan’s third largest city located in the Kansai region on the left side of Japan and is famous for its food. The most well known dish is the takoyaki and okonomiyaki which consist of a batter along with other ingredients like cabbage and octopus. Takoyaki are formed like small round balls while okonomiyaki are made like a pancake. Dōtonbori is a food district famous for its food and their neon Glico billboard featuring a running man. Another big landmark of Osaka is the Osaka castle, a majestic building sitting in the Osaka Castle Park. The castle was constructed in 1597 and has been maintained well, retaining its beauty. </p>
+<h1 id="Culture">Culture</h1>
+<br>
+  <!--Content table for easier navigation(JS) Start-->
+<div id="textcont">
+    <div id="table">
+        <table>
+            <tr>
+              <th>Contents</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+              <td input class="scroll-down" onClick="document.getElementById('food').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Food</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+              <td input class="scroll-down" onClick="document.getElementById('Neoculture').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Neo-culture</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td input class="scroll-down" onClick="document.getElementById('Religion').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Religion</td>
+              </tr>
+             
+          </table>
+          <br>
+  <!--Content table for easier navigation(JS) end-->
     </div>
+    <br>
+      <!--Text content start--> 
+   <h1 class="title">Food</h1>
+            <br>
+            <img class="foo" src="Food.jpg" alt="food" width="400px" height="250px">
+            
+            <br>
+            <div id="food">
+            <p>
+                Food
+                In Japan sea food is the most popular food to eat and there are many different varieties of it, the most popular one known worldwide is Sushi. Japan is also famous for a dish called “ramen” which is broth soup with noodles with a variety of toppings. It's traditional to sometimes sit on the floor and eat. Street food is also popular in Japan and people often go with friends to eat street food. Japanese people like to fry their food like chicken and vegetables and also fried rice. 
+            </p>
+          
+            </div class="pic">
+            <div>
+           
+        </div>
+            <br>
+             
+            <br>
+            <h1 class="title2">Neo-culture</h1>
+            <br>
+            <img class="foo" src="img/neo.jpg" alt="Culturepic" width="400px" height="250px">
+            <br>
+            <div id="Neoculture">
+                <p>
+                    Japan has one of the most popular books called manga which is a big part of their neo culture and also anime which is a series from the manga that is also very popular. Japan has big game consoles like Playstation and Nintendo and also very popular games like Zelda for nintendo and tekken for playstation. The Playstation is currently the world's best selling console and the playstation 2 that won the most consoles sold in a year and that record has still not been beaten which shows how good and big the Japanese game industry is.
+                </p>
+            </div>
+            <br>
+            
+            <br>
+                <h1 class="title3">Religion</h1>
+                <br>
+                <img class="foo" src="img/Shintoism.jpg" alt="Shinto" width="400px" height="250px">
+                <br>
+                <div id="Religion">
+                    <p>
+                        Buddhism and shinto are the two main religions in japan. Almost 54% of the japanese population still do shinto traditions and follow the religion which makes it Japan's biggest religion and Shinto was also founded in Japan. Shinto as a religion revolves around Spirits and gods which they call in Japan “Kami”. Shinto is also represented by a building which is a symbol for shinto.
 
-    <div class="container">
-        <img src="img/PrImg_4536-700x423.jpg" alt="Kyoto" id="kyotopic">
-        <div class="centered3">Kyoto | 京都</div> 
-        <p class="para" id="p3">Kyoto, previously known as Japan’s capital city before Tokyo inherited the role during the Edo period, is great for people interested in the traditional side of Japanese culture. One very well known local sight in Kyoto is the Fushimi-Inari Taisha Shrine which is a shrine consisting of around 10 000 Torii gates lined up along the path up to the head shrine on the base of Inari mountain. The mountain is inhabited by the Inari Ōkami which is a Japanese fox spirit from the Shinto religion. Kyoto is packed with traditional japanese castles and palaces from the Edo period such as the Nijo castle and the Kyoto Imperial Palace. </p>
-    </div>
+                    </p>
+            </div>
+        </div>
+<!--Text content start--> 
+        
+
+   
 
 </div>
- <!--text of content end-->
-
 </body>
-</html> 
+</html>
