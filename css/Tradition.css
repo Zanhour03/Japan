@@ -1,111 +1,108 @@
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <title>Japan Website</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/Tradition.css">
+        <link rel="icon" type="img/" href="img/icon1.png">
+    </head>
 
-}
-@font-face {
-    font-family: "Mikefont";
-src: url("nuku1.woff") format("woff");
-} 
+    <body>
+     <!--Carls part of the site (all Carls work)--> 
+        </div>
+        <!--Naigation bar start-->
+            <div class="navbar">
+                <a href="index.html" id="info">Home</a>
+                <a href="Callesida.html"> Traditions </a>
+                <a href="Kenjisida.html"> Sights </a>
+                <a href="Culture.html"> Culture </a>
+                
+                <div id="logo" onclick="location.href='index.html';" style="cursor: pointer;"> &nbsp; </div>
+            </div>
+ <!--Naigation bar end-->
 
+            
+            <div id="featured">
+                <img src="/img/banner3.jpg" alt="banner" id="bannerpic">
 
+                <div id="content">
+                   
+             <!--Content table for easier navigation(JS) start-->
+                    <div id="content-tbl">
 
-#logo{
-    width: 14%;
-    height: 120px;
-    background-image: url(../img/logo2.png);
-    background-size: cover;
-    margin: auto;
-    filter: drop-shadow(5px 5px 5px #222);
-  }
+                        <div id="table">
+                            <table>
+                                <tr>
+                                  <th>Contents</th>
+                                </tr>
+                                <tr>
+                                    <td>1.</td>
+                                  <td input class="scroll-down" onClick="document.getElementById('text1').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Japanese New Year</td>
+                                </tr>
+                                <tr>
+                                    <td>2.</td>
+                                  <td input class="scroll-down" onClick="document.getElementById('text2').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Tea ceremonies</td>
+                                </tr>
+                                <tr>
+                                    <td>3.</td>
+                                    <td input class="scroll-down" onClick="document.getElementById('text3').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Festivals</td>
+                                  </tr>
+                                  <tr>
+                                      <td>4.</td>
+                                    <td  input class="scroll-down" onClick="document.getElementById('text4').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Customs</td>
+                                  </tr>
+                              </table>
+                              <br>
 
- 
-  .navbar {
-    z-index:1;
-    overflow:visible;
-    background-color: #333;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
-    height: 10vh;
-    border: black solid 2px;
-  }
+                        </div>
+                          <!--Content table for easier navigation(JS) end-->
 
- 
-  .navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 49px 49.75px;
-    margin-left: 11%;
-    margin-top: -5vh;
-    font-family: "Mikefont";
+                        <H1 id="rubrik">Traditions</H1>
+                        <br>
+                <!--text of content start-->
+                    <div id="text1">
+                        <img src="temple.jpg" alt="temple" width="700" height="400">
+                        <br>
+                        <h2 class="rubriker">New Year</h2>
+                        <br>
+                        <p>New Year, (Shogatsu, 正月) is an annual holiday that occurs on the 1st of January and is celebrated nation wide. It is considered to be one of the most important holidays in Japan and is often spent with family. 
+                            Each individual year is supposed to represent a new start, 
+                            therefore many students and workers attend so-called "forget the year gatherings". 
+                            It is also a tradition to visit a temple or shrine during this celebration. Traditional food that is often eaten during the New years are “mochi” which are rice cakes, 
+                            and “osechi” which is boxes filled with a verity of different traditional dishes.</p>
+                      
+                    </div>
+        
+                <br>
 
-  }
+                    <div id="text2">
+                        <img src="teacermony.jpg" alt="teacermony"  width="700" height="400">
+                        <br>
+                        <h2 class="rubriker">Tea ceremonies</h2>
+                        <br>
+                        <p>Tea ceremonies is a an ancient tradition that dates back to the 8th century. The tradition includes the traditional way of preparing and serving matcha tea or japanese green tea. The whole ceremony isn't about drinking the tea, but instead it is more about the aesthetic and preparing the tea with passion.</p>
+                    </div>
+                <br>
 
+                    <div id="text3">
+                        <img src="festival2.jpg" alt="festival" width="700" height="400">
+                        <br>
+                        <h2 class="rubriker">Festivals</h2>
+                        <br>
+                      <p>Festivals in Japan are known as ‘matsuri’ and are common all through the year. Different parts of the country celebrate different festivals such as the ‘Tanabata matsuri’, the Star Festival in Tokyo and ‘Aoi Matsuri’, the Hollyhock Festival in Kyoto. Although they have different celebrations they often share a common factor in having shrines or shinto culture as the main element.</p>
+                    </div>
+                <br>
 
-#html{
-    scroll-behavior: smooth;
-    color:#252525 ;
-    overflow: auto;
-
-}
-
-body{
-    background-color: #1b1b1b;
-    padding-bottom: 100px;
-}
-
-
-#featured{
-    background-image: url(../img/banner3.jpg);
-    filter: drop-shadow(0px 7px 5px rgb(43, 42, 42));
-    background-size: 96% 500px;
-    background-position: top center;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 50%;
-
-
-}
-
-
-
-a{
-    margin-top: 100px;
-    margin-left: 30%;
-    height: 10vh;
-
-}
-
-#content{
-    margin: 500px 25px 0px 25px;
-    padding: 5% 20% 10% 5%;
-    background-color: rgb(252, 239, 239);
-}
-
-.rubriker{
-    font-family: "Mikefont";
-    padding-top: 25px;
-    color: crimson;
-}
-
-#rubrik{
-    font-family: "Mikefont";
-    padding-top: 25px;
-    color: crimson;
-    position: center;
-    padding-left:auto ;
-    font-size: 2.5em;
-}
-table {
-    border: 1px solid black;
-
-}
-td{
-    padding-right: 20px;
-    padding-left: -10px;
-    color: blue;
-}
+                    <div id="text4">
+                        <img src="customs.webp" alt="bowing people" width="700" height="400">
+                        <br>
+                        <h2 class="rubriker">Customs</h2>
+                        <br>
+                        <p>Customs are an important part in the Japanese culture and society. A common practice in Japan is the act of bowing. A small bow is seen as casual and is often used to greet someone, while a deeper and longer bow shows the act of respect. Another type of custom in Japan is the use of names. To show respect while addressing someone you often use words at the of their name such as “kun” for younger men and “chan” for younger women. For older people, both male and female, the title “san” or “sama” is used. </p>
+                    </div>
+            </div>
+              <!--text of content start-->
+        
+    </body>
+</html>
