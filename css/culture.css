@@ -5,7 +5,7 @@
 @font-face {
     font-family: "Mikefont";
 
-src: url("nuku1.woff") format("woff");
+src: url("nuku1.woff") format("woff");  /*Custom font*/
 }
 
 #topfill{
@@ -18,7 +18,7 @@ src: url("nuku1.woff") format("woff");
 #logo{
     width: 14%;
     height: 120px;
-    background-image: url(/img/logo2.png);
+    background-image: url(../img/logo2.png);
     background-size: cover;
     margin: auto;
     filter: drop-shadow(5px 5px 5px #222);
@@ -44,6 +44,7 @@ src: url("nuku1.woff") format("woff");
     padding: 18px 16px;
     text-decoration: none;
     margin-left: 15%;
+    font-family: "Mikefont";
   }
 
   /* Change background on mouse-over */
@@ -90,29 +91,104 @@ src: url("nuku1.woff") format("woff");
 
 .title{
     font-family: "Mikefont";
-    padding-top: 25px;
+
     color: crimson;
+    margin-left: 48%;
+    
+    position: center;
+    
     }
+    .title2{
+      font-family: "Mikefont";
+      padding-top: 25px;
+      color: crimson;
+      margin-left: 45%;
+      margin-top: 10%;
+      position: center;
+    }
+    .title3{
+      font-family: "Mikefont";
+      padding-top: 25px;
+      color: crimson;
+      margin-left: 46%;
+      margin-top: 10%;
+      position: center;
+     
+      
+    } 
   #food{
     float: right;
     position:right;
     border: red solid 2px;
-    margin-right: 40%;
+ margin-right: 17%;
+    margin-left: 19% ;
+    padding: 10px;
+  
   }
   #Neoculture{
     float: right;
     position:right;
-    border: black solid 2px;
+    border: red solid 2px;
+ margin-right: 17%;
+    margin-left: 19% ;
+    padding: 10px;
   }
   #Religion{
-    float: right;
+  float: right;
     position:right;
+    border: red solid 2px;
+ margin-right: 17%;
+    margin-left: 19% ;
+    padding: 10px;
+  }
+  .foo{
+    
     border: black solid 2px;
     
+    height: 250px;
+    display: block;
+    width: 600px;
+    margin-left: 24%;
+  margin-right: auto;
+
   }
-  #foo{
-    
-    border: red solid 2px;
-    
-  }
+   #textcont{
+    border: black solid 2px;
+    margin-left: 6%;
+    margin-right: 6%;
+    background-color: whitesmoke;
+    padding-bottom: 10%;
+    padding-top: 0%;
+    margin-top: 0%;
+
+   }
+   body{
+
+     background-image: url(../img/tesy.jpg);
+     padding-bottom: 5%;
+   }
+   .pic{
+     margin-right: 50%;
+   }
+   #Culture{
+    font-family: "Mikefont";
    
+    color: black;
+    margin-left: 40%;
+    margin-top: 10%;
+    font-size: 500%;
+   }
+   table {
+    border: 1px solid black;
+    margin-left: 5%;
+    margin-top: 5%;
+    font-family: "Mikefont";
+  
+
+}
+td{
+  padding-right: 20px;
+  padding-left: -10px;
+  color: blue;
+  font-family: "Mikefont";
+}
