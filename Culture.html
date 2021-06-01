@@ -5,22 +5,55 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/culture.css">
 <script src="js/script.js"></script>
-<link rel="icon" type="img/goku-peruk-dragon-ball.jpg" href="img/goku-peruk-dragon-ball.jpg">
+<link rel="icon" type="img/" href="img/icon1.png">
 </head>
 <body>
-    
+       <!--Mikes part of the site (all Mikes work)-->  
+
+        <!--Naigation bar start-->
 <div class="navbar">
     <a href="index.html" id="info">Home</a>
-    <a href="Callesida.html"> Traditions </a>
+    <a href="Tradition.html"> Traditions </a>
     <a href="Kenjisida.html"> Sights </a>
-    <a href="mikesida.html"> Culture </a>
+    <a href="Culture.html"> Culture </a>
     <div id="logo" onclick="location.href='index.html';" style="cursor: pointer;"> &nbsp; </div>
 </div>
+ <!--Naigation bar end-->
+
 <div id="topfill"></div>
+
+<h1 id="Culture">Culture</h1>
 <br>
+  <!--Content table for easier navigation(JS) Start-->
 <div id="textcont">
+    <div id="table">
+        <table>
+            <tr>
+              <th>Contents</th>
+            </tr>
+            <tr>
+                <td>1.</td>
+              <td input class="scroll-down" onClick="document.getElementById('food').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Food</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+              <td input class="scroll-down" onClick="document.getElementById('Neoculture').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Neo-culture</td>
+            </tr>
+            <tr>
+                <td>3.</td>
+                <td input class="scroll-down" onClick="document.getElementById('Religion').scrollIntoView({ block: 'end',  behavior: 'smooth' });" style="cursor: pointer;">Religion</td>
+              </tr>
+             
+          </table>
+          <br>
+  <!--Content table for easier navigation(JS) end-->
+    </div>
     <br>
-   <h4 class="title">Food</h4>
+      <!--Text content start--> 
+   <h1 class="title">Food</h1>
+            <br>
+            <img class="foo" src="Food.jpg" alt="food" width="400px" height="250px">
+            
             <br>
             <div id="food">
             <p>
@@ -28,12 +61,16 @@
                 In Japan sea food is the most popular food to eat and there are many different varieties of it, the most popular one known worldwide is Sushi. Japan is also famous for a dish called “ramen” which is broth soup with noodles with a variety of toppings. It's traditional to sometimes sit on the floor and eat. Street food is also popular in Japan and people often go with friends to eat street food. Japanese people like to fry their food like chicken and vegetables and also fried rice. 
             </p>
           
-            </div>
-            <img id="foo" src="Food.jpg" alt="food" width="400px" height="250px">
-            <img src="sushi.jpg" alt="sushi">
+            </div class="pic">
+            <div>
+           
+        </div>
             <br>
+             
             <br>
-            <h4 class="title">Neo-culture</h4>
+            <h1 class="title2">Neo-culture</h1>
+            <br>
+            <img class="foo" src="img/neo.jpg" alt="food" width="400px" height="250px">
             <br>
             <div id="Neoculture">
                 <p>
@@ -41,8 +78,11 @@
                 </p>
             </div>
             <br>
+            
             <br>
-                <h4 class="title">Religion</h4>
+                <h1 class="title3">Religion</h1>
+                <br>
+                <img class="foo" src="img/Shintoism.jpg" alt="food" width="400px" height="250px">
                 <br>
                 <div id="Religion">
                     <p>
@@ -51,7 +91,7 @@
                     </p>
             </div>
         </div>
-
+<!--Text content start--> 
         
 
    
